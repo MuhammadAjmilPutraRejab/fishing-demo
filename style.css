@@ -46,6 +46,7 @@ form button {
 .divider {
   display: flex;
   align-items: center;
+  text-align: center;
   margin: 20px 0;
 }
 
@@ -57,7 +58,7 @@ form button {
 
 .divider .or {
   margin: 0 10px;
-  color: #8e8e8e;
+  color: #999;
   font-weight: bold;
 }
 
@@ -79,8 +80,6 @@ form button {
   color: #00376b;
   text-decoration: none;
   font-size: 12px;
-  display: block;
-  margin-top: 12px;
 }
 
 .signup-box p {
@@ -89,33 +88,6 @@ form button {
 
 .signup-box a {
   color: #3897f0;
-  text-decoration: none;
   font-weight: bold;
+  text-decoration: none;
 }
-
-
-.confirmation-box {
-  background-color: #fff;
-  border: 1px solid #dbdbdb;
-  padding: 40px;
-  text-align: center;
-  margin: 50px auto;
-  max-width: 350px;
-  border-radius: 8px;
-}
-
-.confirmation-box .logo {
-  width: 175px;
-  margin-bottom: 20px;
-}
-
-.confirmation-box h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.confirmation-box p {
-  font-size: 16px;
-  color: #262626;
-}
-
