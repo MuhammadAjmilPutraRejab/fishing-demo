@@ -1,0 +1,121 @@
+body {
+  background-color: #fafafa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 350px;
+  margin: 50px auto;
+}
+
+.login-box, .signup-box {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 175px;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 9px;
+  margin: 5px 0;
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+
+form button {
+  width: 100%;
+  padding: 8px;
+  background-color: #3897f0;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.divider .line {
+  flex: 1;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+.divider .or {
+  margin: 0 10px;
+  color: #8e8e8e;
+  font-weight: bold;
+}
+
+.facebook-login a {
+  color: #385185;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facebook-login img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.forgot-password a {
+  color: #00376b;
+  text-decoration: none;
+  font-size: 12px;
+  display: block;
+  margin-top: 12px;
+}
+
+.signup-box p {
+  font-size: 14px;
+}
+
+.signup-box a {
+  color: #3897f0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.confirmation-box {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 40px;
+  text-align: center;
+  margin: 50px auto;
+  max-width: 350px;
+  border-radius: 8px;
+}
+
+.confirmation-box .logo {
+  width: 175px;
+  margin-bottom: 20px;
+}
+
+.confirmation-box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.confirmation-box p {
+  font-size: 16px;
+  color: #262626;
+}
+
